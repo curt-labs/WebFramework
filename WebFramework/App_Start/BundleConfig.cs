@@ -5,8 +5,8 @@ namespace WebFramework {
     public class BundleConfig {
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles) {
-            bundles.Add(new ScriptBundle("~/bundles/boilerplate").Include("~/Scripts/vendor/."));
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include("~/Scripts/modernizr-2.6.1.min.js"));
+            bundles.Add(new ScriptBundle("~/bundles/boilerplate").IncludeDirectory("~/Scripts/vendor","*.js"));
+            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include("~/Scripts/modernizr-2.6.1.js"));
 
             bundles.Add(new StyleBundle("~/Content/main-css").Include(
                 "~/Content/css/bootstrap.css",
