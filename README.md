@@ -1,7 +1,7 @@
 # Hey you, you like the softwares? Open Source? Javascript? You'll dig me.
 
 
-I'm a [yeoman.io](https://github.com/yeoman/yeoman) application that incorporates the [express](https://github.com/visionmedia/express) node.js library. Some of my yeoman.io features are broken right not, but I'm working on that...believe you me.
+I'm a [yeoman.io](https://github.com/yeoman/yeoman) application that incorporates the [express](https://github.com/visionmedia/express) node.js library. Some of my yeoman.io features are broken right now, but I'm working on that...believe you me.
 
 Oh the web.config file is in case you want to throw this on IIS using [iisnode](https://github.com/tjanczuk/iisnode).
 
