@@ -10,5 +10,8 @@
     "express": "3.0.0",
     "jade": "*",
     "stylus": "*"
-  }
+  },
+	"devDependencies":{
+		"mocha":"0.3.x"
+	}
 }
